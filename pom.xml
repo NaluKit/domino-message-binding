@@ -286,6 +286,7 @@
   </build>
 
   <modules>
+    <module>domino-message-binding-shared</module>
     <module>domino-message-binding-client</module>
     <module>domino-message-binding-processor</module>
   </modules>

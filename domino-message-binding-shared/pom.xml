@@ -27,10 +27,10 @@
     <version>HEAD-SNAPSHOT</version>
   </parent>
 
-  <artifactId>domino-message-binding-client</artifactId>
+  <artifactId>domino-message-binding-shared</artifactId>
 
-  <name>domino-message-binding-client</name>
-  <packaging>gwt-lib</packaging>
+  <name>domino-message-binding-shared</name>
+<!--  <packaging>gwt-lib</packaging>-->
 
   <properties>
     <!--&lt;!&ndash; Convenience property to set the GWT version &ndash;&gt;-->
@@ -84,11 +84,11 @@
     <!--      <version>${elemental.version}</version>-->
     <!--    </dependency>-->
 
-    <dependency>
-      <groupId>org.dominokit</groupId>
-      <artifactId>domino-ui</artifactId>
-      <version>${domino.version}</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.dominokit</groupId>-->
+<!--      <artifactId>domino-ui</artifactId>-->
+<!--      <version>${domino.version}</version>-->
+<!--    </dependency>-->
 <!--    <dependency>-->
 <!--      <groupId>org.dominokit</groupId>-->
 <!--      <artifactId>domino-ui</artifactId>-->
@@ -96,17 +96,6 @@
 <!--      <classifier>sources</classifier>-->
 <!--    </dependency>-->
 
-    <dependency>
-      <groupId>com.github.nalukit</groupId>
-      <artifactId>domino-message-binding-shared</artifactId>
-      <version>HEAD-SNAPSHOT</version>
-    </dependency>
-<!--    <dependency>-->
-<!--      <groupId>com.github.nalukit</groupId>-->
-<!--      <artifactId>domino-message-binding-shared</artifactId>-->
-<!--      <version>HEAD-SNAPSHOT</version>-->
-<!--      <classifier>sources</classifier>-->
-<!--    </dependency>-->
 
     <!--<dependency>-->
     <!--<groupId>com.google.gwt</groupId>-->
@@ -183,15 +172,19 @@
     <!--<finalName>nalu-message</finalName>-->
     <plugins>
       <plugin>
-        <groupId>net.ltgt.gwt.maven</groupId>
-        <artifactId>gwt-maven-plugin</artifactId>
-        <version>${maven.gwt.plugin}</version>
-        <extensions>true</extensions>
-        <configuration>
-          <failOnError>true</failOnError>
-          <moduleName>com.github.nalukit.domino.message.binding.DominoMessageBinding</moduleName>
-        </configuration>
+        <artifactId>maven-source-plugin</artifactId>
       </plugin>
+
+      <!--      <plugin>-->
+<!--        <groupId>net.ltgt.gwt.maven</groupId>-->
+<!--        <artifactId>gwt-maven-plugin</artifactId>-->
+<!--        <version>${maven.gwt.plugin}</version>-->
+<!--        <extensions>true</extensions>-->
+<!--        <configuration>-->
+<!--          <failOnError>true</failOnError>-->
+<!--          <moduleName>com.github.nalukit.domino.message.binding.DominoMessageBindingShared</moduleName>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
 
       <!--<plugin>-->
       <!--<artifactId>maven-surefire-plugin</artifactId>-->
@@ -340,15 +333,15 @@
     </plugins>
   </build>
 
-  <repositories>
-    <repository>
-      <id>sonatype-snapshots-repo</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-        <checksumPolicy>fail</checksumPolicy>
-      </snapshots>
-    </repository>
-  </repositories>
+<!--  <repositories>-->
+<!--    <repository>-->
+<!--      <id>sonatype-snapshots-repo</id>-->
+<!--      <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--      <snapshots>-->
+<!--        <enabled>true</enabled>-->
+<!--        <updatePolicy>always</updatePolicy>-->
+<!--        <checksumPolicy>fail</checksumPolicy>-->
+<!--      </snapshots>-->
+<!--    </repository>-->
+<!--  </repositories>-->
 </project>

@@ -17,11 +17,11 @@
 package com.nalukit.domino.message.binding.processor;
 
 import com.google.auto.service.AutoService;
-import com.nalukit.domino.message.binding.client.handling.AbstractMessageDriver;
-import com.nalukit.domino.message.binding.client.handling.IsMessageDriver;
-import com.nalukit.domino.message.binding.client.handling.annotation.HasMessageDriverSupport;
-import com.nalukit.domino.message.binding.client.handling.annotation.MessagePresenter;
-import com.nalukit.domino.message.binding.client.internal.helper.MessageElementWrapper;
+import com.github.nalukit.domino.message.binding.client.handling.AbstractMessageDriver;
+import com.github.nalukit.domino.message.binding.client.handling.IsMessageDriver;
+import com.github.nalukit.domino.message.binding.client.handling.annotation.HasMessageDriverSupport;
+import com.github.nalukit.domino.message.binding.client.handling.annotation.MessagePresenter;
+import com.github.nalukit.domino.message.binding.client.internal.helper.MessageElementWrapper;
 import com.squareup.javapoet.*;
 import org.dominokit.domino.ui.forms.BasicFormElement;
 
