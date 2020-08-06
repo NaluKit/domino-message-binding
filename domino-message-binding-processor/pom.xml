@@ -36,13 +36,7 @@
     <autoservice.version>1.0-rc4</autoservice.version>
     <javapoet.version>1.11.1</javapoet.version>
 
-    <!--<junit.version>4.12</junit.version>-->
-    <!--<org.mockito.version>1.10.19</org.mockito.version>-->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!--<project.build.outputEncoding>UTF-8</project.build.outputEncoding>-->
-    <!--<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
-
-    <!--<generated.source.directory>${project.build.directory}/generated-sources/annotations</generated.source.directory>-->
   </properties>
 
   <dependencies>
@@ -64,54 +58,6 @@
       <artifactId>javapoet</artifactId>
       <version>${javapoet.version}</version>
     </dependency>
-
-    <!--<dependency>-->
-    <!--<groupId>com.google.gwt</groupId>-->
-    <!--<artifactId>gwt-user</artifactId>-->
-    <!--<scope>provided</scope>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>com.google.gwt</groupId>-->
-    <!--<artifactId>gwt-dev</artifactId>-->
-    <!--<scope>provided</scope>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>com.google.gwt</groupId>-->
-    <!--<artifactId>gwt-codeserver</artifactId>-->
-    <!--<scope>provided</scope>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>com.google.gwt</groupId>-->
-    <!--<artifactId>gwt-servlet</artifactId>-->
-    <!--</dependency>-->
-
-    <!--    <dependency>-->
-    <!--      <groupId>com.github.nalukit</groupId>-->
-    <!--      <artifactId>nalu-message-shared</artifactId>-->
-    <!--      <version>${nalu-message.version}</version>-->
-    <!--    </dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>com.github.nalukit</groupId>-->
-    <!--<artifactId>nalu-processor</artifactId>-->
-    <!--<version>${nalu.version}</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>com.github.nalukit</groupId>-->
-    <!--<artifactId>nalu-plugin-elemental2</artifactId>-->
-    <!--<version>${nalu.version}</version>-->
-    <!--</dependency>-->
-
-    <!--<dependency>-->
-    <!--<groupId>de.gishmo</groupId>-->
-    <!--<artifactId>domino-ui</artifactId>-->
-    <!--<version>${domino.version}</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>de.gishmo</groupId>-->
-    <!--<artifactId>domino-ui</artifactId>-->
-    <!--<version>${domino.version}</version>-->
-    <!--<classifier>sources</classifier>-->
-    <!--</dependency>-->
   </dependencies>
 
 
@@ -163,5 +109,4 @@
       </plugin>
     </plugins>
   </build>
-
 </project>
