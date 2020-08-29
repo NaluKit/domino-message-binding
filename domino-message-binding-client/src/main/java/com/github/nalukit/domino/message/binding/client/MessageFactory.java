@@ -870,7 +870,10 @@ public class MessageFactory {
    * removes the progress bar from the screen
    */
   public void hideProgressBar() {
-    progressBarPresenter.hide();
+    if (this.progressBarActive) {
+      progressBarPresenter.hide();
+      this.progressBarActive = false;
+    }
   }
 
   /**
