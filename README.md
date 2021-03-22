@@ -37,6 +37,22 @@ The driver is creating with the following code:
     this.messageDriver.register();
 ```
 
+To add your server messages to the widgets, just call
+```java
+    this.messageDriver.consume(messages);
+```
+where messages are a `List<? extends IsDominoMessage>`.
+
+To clear all fields, call:
+```java
+    this.messageDriver.clearInvalid();
+```
+
+to derigister the message driver, call:
+```java
+    this.messageDriver.derigister();
+```
+
 ### The shared Message Object
 Next we need a message object to transport the information. The message object needs to implement the ÌsDominoMessage`-interface:
 
