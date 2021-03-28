@@ -33,7 +33,7 @@
   <packaging>gwt-lib</packaging>
 
   <properties>
-    <domino.version>1.0-SNAPSHOT</domino.version>
+    <domino.version>1.0.0-RC1</domino.version>
     <elemental.version>1.0.0-RC1</elemental.version>
     <maven.gwt.plugin>1.0.0</maven.gwt.plugin>
 
