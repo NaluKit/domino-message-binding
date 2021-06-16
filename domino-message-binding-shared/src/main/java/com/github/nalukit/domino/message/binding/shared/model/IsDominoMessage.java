@@ -62,7 +62,7 @@ public interface IsDominoMessage {
 
   /**
    * Defines the error source by using the name from the MessagePresenter annotation.
-   * <p/>
+   *
    * It is possible to set more than one error source for a message. In this case
    * the message wil be displayed on every referenced MessagePresenter
    *

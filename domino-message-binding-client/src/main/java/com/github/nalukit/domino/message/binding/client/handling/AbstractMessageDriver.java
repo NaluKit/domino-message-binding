@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  * Abstract class of the message driver
- * <p/>
+ *
  * Contains the base implementation of the driver
  *
  * @param <P> name of the MessageProvider

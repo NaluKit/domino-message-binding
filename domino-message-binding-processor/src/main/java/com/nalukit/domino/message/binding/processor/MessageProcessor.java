@@ -78,7 +78,7 @@ public class MessageProcessor
           for (TypeElement annotation : annotations) {
             if (HasMessageDriverSupport.class.getCanonicalName()
                                              .equals(annotation.toString())) {
-              handleHasNaluMessagePresenterSupportAnnotation(roundEnv);
+              handleHasMessageDriverSupportAnnotation(roundEnv);
               for (Element k : this.messagePresenterAnnotatedElements.keySet()) {
                 this.generateDriver(k,
                                     this.messagePresenterAnnotatedElements.get(k));
@@ -147,7 +147,7 @@ public class MessageProcessor
     }
   }
 
-  private void handleHasNaluMessagePresenterSupportAnnotation(RoundEnvironment roundEnv)
+  private void handleHasMessageDriverSupportAnnotation(RoundEnvironment roundEnv)
       throws ProcessorException {
     for (Element annotatedElement : roundEnv.getElementsAnnotatedWith(HasMessageDriverSupport.class)) {
       this.validateTypeElement(annotatedElement);

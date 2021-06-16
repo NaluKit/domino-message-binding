@@ -22,21 +22,22 @@ public class MessageElementWrapper {
     this.fieldId = fieldId;
   }
 
-  /**
-   * Adds a InvalidHandler to all added widgets.
-   * <p>
-   * The handler will be executed in case the error is markes as
-   * invalid.
-   *
-   * @param handler the handler
-   * @return handler registration
-   */
+//  /**
+//   * Adds a InvalidHandler to all added widgets.
+//   * <p>
+//   * The handler will be executed in case the error is markes as
+//   * invalid.
+//   *
+//   * @param handler the handler
+//   * @return handler registration
+//   */
   //  public HandlerRegistration addInvalidHandler(InvalidHandler handler) {
   //    this.invalidHandlers.add(handler);
   //    return () -> {
   //      this.invalidHandlers.remove(handler);
   //    };
   //  }
+
   public EventListener getBlurEventListener() {
     return blurEventListener;
   }
