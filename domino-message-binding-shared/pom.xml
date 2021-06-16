@@ -30,6 +30,41 @@
   <artifactId>domino-message-binding-shared</artifactId>
 
   <name>domino-message-binding-shared</name>
+  <description>Binding server messages to Domoni-UI widgets</description>
+
+  <url>https://github.com/frankhossfeld/domino-message-binding</url>
+  <inceptionYear>2019</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Frank Hossfeld</name>
+      <id>frankhossfeld</id>
+      <email>hossfeld@hossfeld-solutions.de</email>
+      <organization>Hossfeld Solutions GmbH</organization>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git@github.com:frankhossfeld/domino-message-binding.git</connection>
+    <developerConnection>scm:git:git@github.com:frankhossfeld/domino-message-binding.git</developerConnection>
+    <url>scm:git:https://github.com/frankhossfeld/domino-message-binding</url>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/frankhossfeld/domino-message-binding/issues</url>
+  </issueManagement>
 
   <build>
     <resources>

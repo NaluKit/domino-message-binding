@@ -28,6 +28,41 @@
   <packaging>pom</packaging>
 
   <name>domino-message-binding</name>
+  <description>Binding server messages to Domoni-UI widgets</description>
+
+  <url>https://github.com/frankhossfeld/domino-message-binding</url>
+  <inceptionYear>2019</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Frank Hossfeld</name>
+      <id>frankhossfeld</id>
+      <email>hossfeld@hossfeld-solutions.de</email>
+      <organization>Hossfeld Solutions GmbH</organization>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git@github.com:frankhossfeld/domino-message-binding.git</connection>
+    <developerConnection>scm:git:git@github.com:frankhossfeld/domino-message-binding.git</developerConnection>
+    <url>scm:git:https://github.com/frankhossfeld/domino-message-binding</url>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/frankhossfeld/domino-message-binding/issues</url>
+  </issueManagement>
 
   <properties>
     <!-- GWT needs at least java 1.6 -->
@@ -41,28 +76,6 @@
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-<!--  <build>-->
-<!--    <plugins>-->
-<!--      <plugin>-->
-<!--        <groupId>org.apache.maven.plugins</groupId>-->
-<!--        <artifactId>maven-compiler-plugin</artifactId>-->
-<!--        <version>3.6.1</version>-->
-<!--        <configuration>-->
-<!--          <source>${maven.compiler.source}</source>-->
-<!--          <target>${maven.compiler.target}</target>-->
-<!--          <showWarnings>true</showWarnings>-->
-<!--          <showDeprecation>true</showDeprecation>-->
-<!--          <meminitial>128m</meminitial>-->
-<!--          <maxmem>1024m</maxmem>-->
-<!--          <encoding>${project.build.sourceEncoding}</encoding>-->
-<!--          <compilerArgs>-->
-<!--            <compilerArgument>-Xlint:all</compilerArgument>-->
-<!--          </compilerArgs>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
-<!--    </plugins>-->
-<!--  </build>-->
 
   <modules>
     <module>domino-message-binding-shared</module>
