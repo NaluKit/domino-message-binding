@@ -23,7 +23,7 @@
 
   <groupId>com.github.nalukit</groupId>
   <artifactId>domino-message-binding</artifactId>
-  <version>HEAD-SNAPSHOT</version>
+  <version>1.0.0-RC1</version>
 
   <packaging>pom</packaging>
 
